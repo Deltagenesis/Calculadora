@@ -1,0 +1,87 @@
+*{
+	margin: 0;
+	padding: 0; 
+
+	box-sizing: border-box;
+}
+
+#calculadora{
+	width: 325px;
+	height: auto;
+
+	margin: 100px auto;
+	padding: 20px 20px 9px;
+	background: #39aec2;
+	background: linear-gradient(#39aec2,#25b082);
+	border-radius: 10px;
+	box-shadow: 0px 4px #00aec4, 0px 10px 15px rgba(0,0,0, 0.5);
+}
+
+.top span.limpia{
+	float: left;
+}
+
+.top .pantalla{
+	height: 40px;
+	width: 212px;
+	float: right;
+
+	padding: 0 10px; 
+	background: rgba(0,0,0,0.2);
+	border-radius: 10px;
+	box-shadow: inset 0px 4px rgba(0,0,0,0.2);
+
+
+}
+
+.teclas .top{
+	overflow: hidden;
+
+}
+
+.teclas span, .top span.limpia{
+	float: left;
+	position: relative;
+	top: 0;
+
+	cursor: pointer;
+
+	width: 66px;
+	height: 36px;
+
+	background: white;
+	border-radius: 10px;
+	box-shadow: 0px 4px rgba(0,0,0,0.2);
+
+	margin: 0 7px 11px 0;
+
+	color: #666;
+	line-height: 36px;
+	text-align: center;
+	
+	user-select: none;
+
+	transition: all 0.2s ease;
+
+}
+
+.teclas span.operador{
+
+background: #0FF0F0;
+margin-right: 0;
+
+}
+
+.teclas span.evalua{
+
+	background: #00FF0F;
+	box-shadow: 0px 4px #67b55b;
+	color: #666666;
+
+}
+
+.top span.limpia{
+	background: #be3a32;
+	box-shadow: #9f0101;
+	color: white;
+}
